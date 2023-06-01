@@ -10,5 +10,5 @@ echo -e "${PURPLE}Git committing...${NC}"
 export COMMIT_DATE=$(date)
 git commit -m "$COMMIT_DATE"
 echo -e "${CYAN}Git pushing...${NC}"
-git push origin master
+git push
 echo -e "${GREEN}Backup Done: $COMMIT_DATE${NC}"
